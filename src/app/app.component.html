@@ -1,0 +1,14 @@
+<div class="container">
+  <h3>Angular Router App</h3>
+  <!-- This nav gives you links to click, which tells the router which route to use (defined in the routes constant in  AppRoutingModule) -->
+  <nav>
+    <ul class="d-flex">
+      <li class=""><a routerLink="/contact" routerLinkActive="active" ariaCurrentWhenActive="page">Contacto</a></li>
+      <li class="ml-5"><a routerLink="/about-us" routerLinkActive="active" ariaCurrentWhenActive="page">Abouts us</a></li>
+      <li class="ml-5"><a routerLink="/home" routerLinkActive="active" ariaCurrentWhenActive="page">Home</a></li>
+    </ul>
+  </nav>
+
+</div>
+<!-- The routed views render in the <router-outlet>-->
+  <router-outlet></router-outlet>
